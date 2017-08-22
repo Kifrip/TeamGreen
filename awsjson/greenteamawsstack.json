@@ -1,6 +1,6 @@
 {
-    "AWSTemplateFormatVersion": "2010-09-09",
-    "Description": "DOA Stack with ADOP Gen 5",
+    "AWSTemplateFormatVersion": "2017-08-22",
+    "Description": "MVP Stack Green Team",
     "Mappings": {
         "RegionMap": {
           "eu-central-1": {
@@ -173,7 +173,7 @@
                                 "export DOCKER_HOST=tcp://${PRIVATE_IP}:2375\n",
                                 "set -e\n",
                                 "mkdir -p /data && cd /data\n",
-                                "git clone https://github.com/Accenture/adop-docker-compose\n",
+                                "git clone https://github.com/bugeyemonster/MVP_DEvOPS_Stack.git",
 
                                 "cd /data/adop-docker-compose\n",
 
