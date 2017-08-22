@@ -173,7 +173,7 @@
                                 "export DOCKER_HOST=tcp://${PRIVATE_IP}:2375\n",
                                 "set -e\n",
                                 "mkdir -p /data && cd /data\n",
-                                "git clone https://github.com/bugeyemonster/MVP_DEvOPS_Stack.git",
+                                "git clone https://github.com/bugeyemonster/MVP_DEvOPS_Stack.git\n",
 
                                 "cd /data/adop-docker-compose\n",
 
