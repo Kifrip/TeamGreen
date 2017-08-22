@@ -1,5 +1,5 @@
 {
-    "AWSTemplateFormatVersion": "2017-08-22",
+    "AWSTemplateFormatVersion": "2010-09-09",
     "Description": "MVP Stack Green Team",
     "Mappings": {
         "RegionMap": {
